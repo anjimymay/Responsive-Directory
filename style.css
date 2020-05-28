@@ -12,12 +12,14 @@
 .navbar-light .navbar-nav .nav-link{
     color:white;
 }
+
 ul {
     display: inline-grid;
     grid-auto-flow: row;
     grid-gap: 24px;
-    justify-items: center;
+    justify-items: end;
     margin: auto;
+    margin-right: 0px;
   }
   
   @media (min-width: 500px) {
